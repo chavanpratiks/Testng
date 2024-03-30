@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Mysuite">
+
+	<test name="Mytest">
+		<classes>
+			<class name="Testng.parametrization">
+
+			</class>
+		</classes>
+		<parameters>
+			<parameter name="username" value="student"></parameter>
+			<parameter name="password" value="Password123"></parameter>
+		</parameters>
+	</test>
+</suite>

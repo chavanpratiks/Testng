@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MySuite">
+	<test name="MyTest">
+		<classes>
+			<class name="Testng.NewTest1">
+				<methods>
+					<groups>
+					<run>
+					<include name="gadget">
+					</include>
+					</run>
+					</groups>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
